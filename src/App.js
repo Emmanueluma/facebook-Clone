@@ -4,12 +4,14 @@ import Notfound from './pages/NotFound'
 import React from 'react';
 import './index.css'
 const App = () => {
-    return ( 
+    return (  
         <main>
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={ <Home />} /> 
+
+                <Route path='/' element={ <Home />} />  
                 <Route path='/NotFound' element={ <Notfound />} /> 
+                
             </Routes>
         </BrowserRouter>
         </main>
